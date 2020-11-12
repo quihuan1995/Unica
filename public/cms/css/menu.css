@@ -1,0 +1,74 @@
+.dd-item {
+    position: relative;
+    margin: 5px 0px;
+}
+.dd3-handle {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 0;
+    cursor: move;
+    width: 363px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 1px solid #aaa;
+    background: 0 0;
+    height: 40px;
+    border-radius: 0;
+}
+.dd3-content {
+    width: 350px;
+    background-color: #fff;
+    border: 0;
+    height: 40px;
+    padding: 10px;
+}
+.dd3-content .show-item-details {
+    background-color: #ccc;
+    left: 319px;
+    height: 39px ;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    width: 43px;
+    color: #000;
+    border-left: 1px solid #aaa;
+}
+.dd3-content .show-item-details i{
+    line-height: 39px;
+}
+.dd-item.active>.item-details {
+    display: block;
+}
+.dd-item>.item-details {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-bottom: 5px;
+    margin-top: -5px;
+    padding: 10px 15px;
+    max-width: 363px;
+}
+.dd-item.active>.item-details>label {
+    float: left;
+    width: 100%;
+    display: block;
+}
+label {
+    font-weight: 400;
+}
+.dd-item>.item-details span.text {
+    display: inline-block;
+    width: 60px;
+    font-weight: 700;
+    font-size: 13px;
+    float: left;
+}
+.dd3-content span{
+    z-index: auto;
+    position: relative;
+}
+.dd-collapse{
+    display: none;
+}

@@ -1,0 +1,9 @@
+div.dataTables_length,
+div.dataTables_info {
+    float: left;
+    margin-left: 0.5em;
+}
+
+div.datatable__info_wrap div.dataTables_info {
+    padding-top: 0.35em;
+}
